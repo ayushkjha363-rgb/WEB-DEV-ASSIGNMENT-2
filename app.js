@@ -1,5 +1,5 @@
 const express = require("express");
-const logger = require("./middelware/logger.js");
+const logger = require("./middleware/logger.js");
 const studentRoutes = require("./routes/studentRoutes.js");
 
 const app = express();
